@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kusumesh Mathukumilli - Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: linear-gradient(135deg, #e0e7ff, #fef3c7);
+        overflow-x: hidden;
+      }
+
+      header {
+        background: #1e3a8a;
+        color: white;
+        padding: 60px 0 20px;
+        text-align: center;
+        position: relative;
+      }
+
+      header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        margin-top: -50px;
+        object-fit: cover;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        margin: 10px 0;
+      }
+
+      header p {
+        font-size: 1.1rem;
+      }
+
+      header a {
+        color: #fef3c7;
+        text-decoration: none;
+        padding: 5px 10px;
+        border: 2px solid white;
+        border-radius: 20px;
+        transition: background 0.3s, color 0.3s;
+      }
+
+      header a:hover {
+        background: white;
+        color: #1e3a8a;
+      }
+
+      .container {
+        width: 90%;
+        margin: 30px auto;
+        max-width: 1200px;
+      }
+
+      .section {
+        background: white;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 0.5s;
+      }
+
+      .section h2 {
+        margin-bottom: 15px;
+        font-size: 1.8rem;
+        color: #1e3a8a;
+      }
+
+      ul {
+        list-style: none;
+        line-height: 1.8;
+      }
+
+      ul li {
+        font-size: 1rem;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        position: relative;
+      }
+
+      ul li:before {
+        content: "\2022";
+        color: #1e3a8a;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      table th,
+      table td {
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+
+      table th {
+        background: #1e3a8a;
+        color: white;
+        font-weight: bold;
+      }
+
+      table tr:nth-child(even) {
+        background: #f8fafc;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        background: #1e3a8a;
+        color: white;
+        margin-top: 30px;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .button {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background: #1e3a8a;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s;
+      }
+
+      .button:hover {
+        background: #0f172a;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="profile photo.jpg" alt="Kusumesh Mathukumilli" />
+      <h1>Kusumesh Mathukumilli</h1>
+      <p>Phone: 8179369067 | Email: kusumeshm@gmail.com</p>
+      <a href="https://www.linkedin.com/in/mk656749/" target="_blank"
+        >LinkedIn</a
+      >
+    </header>
+
+    <div class="container">
+      <div class="section">
+        <h2>Career Objective</h2>
+        <p>
+          To work in an organization that gives me scope for an excellent career
+          and contribute my skills to the growth of the organization.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Educational Qualifications</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>S.NO</th>
+              <th>Degree</th>
+              <th>Board</th>
+              <th>School/College</th>
+              <th>Year of Passing</th>
+              <th>Percentage/CGPA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>B.Tech</td>
+              <td>UGC</td>
+              <td>Gandhi Institute of Technology and Management</td>
+              <td>2026</td>
+              <td>7.6 (CGPA)</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Intermediate</td>
+              <td>Board of Intermediate Education</td>
+              <td>FIITJEE</td>
+              <td>2022</td>
+              <td>70%</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>SSC</td>
+              <td>Board of Secondary Education</td>
+              <td>Sri Nand Techno School</td>
+              <td>2020</td>
+              <td>98%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>Technical Traits</h2>
+        <ul>
+          <li>C</li>
+          <li>Python</li>
+          <li>Database management (basics)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Python programming certification</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Personality Traits</h2>
+        <ul>
+          <li>Positive minded</li>
+          <li>Adaptability</li>
+          <li>Flexibility</li>
+          <li>Creative Thinking</li>
+          <li>Leadership</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Co-Curricular Activities</h2>
+        <ul>
+          <li>
+            Co-founder at House Genie | Web and app application development and
+            entrepreneurship
+          </li>
+          <li>President, Chess SIG GITAM, growing core team to 50+ members</li>
+          <li>Lead for Marketing at GITAM University annual fest (Shore 24)</li>
+          <li>Member for Sports at GITAM University annual fest (Shore 25)</li>
+          <li>
+            Head of Students in AIU South Zones Chess (W) Organized by GITAM
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Listening to music</li>
+          <li>Reading novels</li>
+          <li>Travelling</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Personal Details</h2>
+        <ul>
+          <li><strong>Father's Name:</strong> Mathukumilli Srinivas</li>
+          <li><strong>Mother's Name:</strong> Sunitha</li>
+          <li><strong>Date of Birth:</strong> 08-06-2005</li>
+          <li><strong>Nationality:</strong> Indian</li>
+          <li><strong>Sex:</strong> Male</li>
+          <li><strong>Languages Known:</strong> English, Telugu, Hindi</li>
+          <li>
+            <strong>Address:</strong> D.No: 4-3, College street, S.Moolapolam,
+            Ainavilli Mandal, 533211, Konaseema District, Andhra Pradesh
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Kusumesh Mathukumilli | Designed with passion.</p>
+    </footer>
+  </body>
+</html>
